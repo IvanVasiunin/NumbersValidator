@@ -1,0 +1,31 @@
+{
+  "name": "numberValidation",
+  "version": "1.0.2",
+  "description": "NumbersValidator",
+  "type": "module",
+  "main": "validation.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --mode production"
+  },
+  "author": "Ivan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^9.1.2",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
+    "php": "^1.0.2",
+    "php-cgi": "^0.2.0",
+    "php-cli": "^0.1.5",
+    "php-server": "^1.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.13.2"
+  },
+  "dependencies": {
+    "google-libphonenumber": "^3.2.32",
+    "load-script": "^2.0.0",
+    "lodash": "^4.17.21"
+  }
+}
