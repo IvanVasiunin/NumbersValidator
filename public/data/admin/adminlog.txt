@@ -3,4 +3,7 @@ time: 2023-05-03 19:48:38, action: adding user, user: test1, password: test1, ba
 time: 2023-05-03 19:48:44, action: adding user, user: test2, password: test2, balance: 20, result: success
 time: 2023-05-03 19:48:52, action: adding user, user: test3, password: test3, balance: 30, result: success
 time: 2023-05-03 19:48:56, action: balance change, user: test1, startBalance: 10, new_balance: 100, result: success
-time: 2023-05-03 19:49:01, action: balance change, user: test2, startBalance: 20, new_balance: 200, result: success
+time: 2023-05-03 19:49:01, action: balance change, user: test2, startBalance: 20, new_balance: 200, result: successtime: 2023-10-03 08:25:05, action: adding user, user: test1, password: 173327, balance: 95, result: success
+time: 2023-10-03 08:25:27, action: adding user, user: test2, password: Ivan123, balance: 953, result: success
+time: 2023-10-03 08:25:40, action: password change, user: Test_user, old password: 98657412390, new password: 123, result: success
+time: 2023-10-03 08:26:05, action: adding user, user: GitHub_user, password: GitHub, balance: 10000, result: success

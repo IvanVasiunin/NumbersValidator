@@ -75,3 +75,4 @@ time: 2023-07-20 09:39:59, user: Test_user, service_id: 3, numbers_count: 6, cos
 time: 2023-07-24 13:03:05, user: Test_user, service_id: 3, numbers_count: 1, cost: 0.005, old_balance: 97.57, new_balance: 97.565, result: success
 time: 2023-08-01 17:53:58, user: Test_user, service_id: 3, numbers_count: 1030834, cost: 5154.17, old_balance: 99997.565, new_balance: 94843.395, result: success
 time: 2023-08-01 17:56:46, user: Test_user, service_id: 3, numbers_count: 475047, cost: 2375.235, old_balance: 94843.395, new_balance: 92468.16, result: success
+time: 2023-10-03 08:29:22, user: Test_user, service_id: 3, numbers_count: 1662, cost: 8.31, old_balance: 92468.16, new_balance: 92459.85, result: success
