@@ -150,9 +150,3 @@ Adds and removes symbols and numbers from the required positions.
 # For Developers
 
 This project is developed with <a href="https://github.com/google/libphonenumber">Google Libphonenumber</a>
-
-## Copy of project
-
-- Clone the project to your computer
-- Install all dependencies with: <code>npm i</code>
-- To start your project, use the command: <code>npm start</code>
