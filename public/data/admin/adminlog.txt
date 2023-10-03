@@ -7,3 +7,8 @@ time: 2023-05-03 19:49:01, action: balance change, user: test2, startBalance: 20
 time: 2023-10-03 08:25:27, action: adding user, user: test2, password: Ivan123, balance: 953, result: success
 time: 2023-10-03 08:25:40, action: password change, user: Test_user, old password: 98657412390, new password: 123, result: success
 time: 2023-10-03 08:26:05, action: adding user, user: GitHub_user, password: GitHub, balance: 10000, result: success
+time: 2023-10-03 10:38:38, action: password change, user: Test_user, old password: 123, new password: 123, result: success
+time: 2023-10-03 10:38:41, action: balance change, user: Test_user, startBalance: 92459.85, new_balance: 92459.85, result: success
+time: 2023-10-03 10:38:43, action: password change, user: test1, old password: 173327, new password: 173327, result: success
+time: 2023-10-03 10:39:56, action: password change, user: test1, old password: 173327, new password: 173327, result: success
+time: 2023-10-03 10:41:13, action: balance change, user: test1, startBalance: 95, new_balance: 95, result: success
