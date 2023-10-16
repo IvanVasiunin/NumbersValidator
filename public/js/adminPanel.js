@@ -109,27 +109,27 @@ changeBalanceBtns.forEach(btn => {
     const user = btn.dataset.user;
     const balanceDiv = btn.parentNode.querySelector('.user-balance');
 
-    // Меняем местами password div с input элементом
+    // Swap password div with input element
     const balanceInput = document.createElement('input');
     balanceInput.type = 'text';
     balanceInput.value = balanceDiv.textContent;
     balanceInput.classList.add('balance-input');
     balanceDiv.replaceWith(balanceInput);
 
-    // Создаём и показываем "Save" 
+    // Create and show "Save" 
     const saveBtn = document.createElement('button');
     saveBtn.textContent = 'Save';
     saveBtn.classList.add('save-btn');
     btn.parentNode.appendChild(saveBtn);
     btn.style.display = 'none';
 
-    // Нажатие на "Save" 
+    // Clicking on "Save" 
     saveBtn.addEventListener('click', () => {
       const newBalance = balanceInput.value;
       updateBalance(user, newBalance, balanceDiv, saveBtn, btn, balanceInput);
     });
 
-    // Нажатие на "Enter" 
+    // Clicking on Enter" 
     balanceInput.addEventListener('keydown', event => {
       if (event.key === 'Enter') {
         const newBalance = balanceInput.value;
@@ -137,7 +137,7 @@ changeBalanceBtns.forEach(btn => {
       }
     });
 
-    // Нажатие на "Esc" 
+    // Clicking on "Esc" 
     document.addEventListener('keydown', event => {
       if (event.key === 'Escape') {
         cancelEdit(balanceInput, balanceDiv, saveBtn, btn, balanceDiv.textContent);
@@ -172,17 +172,17 @@ document.querySelector('form').addEventListener('submit', function(event) {
     let xhr = new XMLHttpRequest();
     xhr.open(form.method, form.action);
     xhr.onload = function() {
-        if (xhr.status === 200) { // успешный ответ от сервера
+        if (xhr.status === 200) { // success
             let response = JSON.parse(xhr.responseText);
-            if (response.success) { // если пользователь успешно добавлен
+            if (response.success) { // user has been added
                 console.log('User added!');
-                window.location.reload(); // обновляем страницу
-            } else { // если произошла ошибка
+                window.location.reload(); // refresh page
+            } else { // error
                 console.log('Error: ' + response.error);
             }
-        } else { // ошибка соединения с сервером
+        } else { // server connection error
             console.log('Server error');
         }
     };
-    xhr.send(new FormData(form)); // отправляем данные формы на сервер
+    xhr.send(new FormData(form)); // sending data to server
 });
